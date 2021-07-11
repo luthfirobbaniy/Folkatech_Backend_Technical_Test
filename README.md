@@ -94,3 +94,9 @@ Jika tetap mencobanya maka akan keluar response dengan pesan `Your request was r
 ganti `:_id` dengan `_id user `
 
 `_id user` bisa didapat ketika `GET All User Data`, `GET User Data by Account Number`, dan `GET User Data by Identity Number`
+
+## Additional Notes
+
+- Redis berjalan di Port `6379`
+- Data Redis hanya diberi waktu `600` detik (10 menit)
+- API berjalan di Port `2000`
